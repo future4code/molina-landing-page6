@@ -1,3 +1,4 @@
+
 /*RESET*/
 *{
     margin: 0;
@@ -9,6 +10,11 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+ 
+img{
+    display: block;
+    max-width: 100%;
+
 
 li{
     list-style: none;
@@ -128,3 +134,67 @@ footer p{
 .redes-sociais{
     border: 1px solid red;
 }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding:18px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    box-shadow:0px 5px 3px grey ;
+    
+}
+
+
+.header img{
+    width: 5%
+
+}
+.header a{
+    color: black;
+}
+
+
+.menu li a{
+    margin-left: 30px;
+    font-family: Helvetica,sans-serif,monospace;
+    font-size: 1em;
+    text-shadow: 2px 2px 4px #9b9797;
+    
+}
+.menu {  
+display: flex;
+}
+
+.banner {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 7px;
+    color: white;
+    padding-top: 100px;
+}
+
+.banner p{
+    width: 400px;
+    margin: 0 auto;
+    font-size: 1.5em;
+}
+
+.banner h1{
+    margin-top: 100px;
+    font-size: 3em; 
+}
+.banner { 
+    background-image: url(/img/pexels-jeshootscom-13861.jpg);
+    background-size: cover;
+    height:500px;
+}
+
+
+
+
+    
+
+
+
+

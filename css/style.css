@@ -1,14 +1,20 @@
 
+/*RESET*/
 *{
-    margin: 0px;
-    padding: 0px;
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ESTILOS GERAIS*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
  
 img{
     display: block;
     max-width: 100%;
-}
+
 
 li{
     list-style: none;
@@ -17,6 +23,118 @@ li{
 a{
     text-decoration: none;
 }
+
+/*CARROS DE LUXO*/
+
+#carros-luxo{
+    background-color: #000;
+    padding: 80px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto{
+    width: 460px;
+}
+
+.texto h2{
+    color: white;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.texto p{
+    color: white;
+    font-size: 1.5em;
+}
+
+/*CONTATO*/
+#contato{
+    background-color: #FF5C5C;
+    padding: 80px 100px;
+}
+
+#contato h2{
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.alugar{
+    border: 1px solid black;
+}
+
+form{
+    width: 700px;
+    margin: 0 auto;
+}
+
+#contato form input{
+    display: block;
+    padding: 15px;
+    outline: none;
+    border: 1px solid #777;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#contato form textarea{
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #777;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    display: block;
+    margin: 15px auto;
+    width: 100%;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: 1px solid #777;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #777;
+    background-color: white;
+    transition: .2s;
+}
+
+button:hover{
+    color: white;
+    border: 1px solid white;
+    background-color: #FF5C5C;
+}
+
+
+/*RODAPE*/
+footer{
+    padding: 80px 100px 0 100px ;
+}
+
+footer p{
+    text-align: center;
+    font-size: .875em;
+}
+
+.info-redes{
+    display: flex;
+    border: 1px solid red;
+}
+
+.info-logo{
+    border: 1px solid red;
+}
+
+.redes-sociais{
+    border: 1px solid red;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -76,6 +194,7 @@ display: flex;
 
 
     
+
 
 
 

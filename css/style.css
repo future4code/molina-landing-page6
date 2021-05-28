@@ -25,17 +25,22 @@ a{
 }
 
 /*CARROS DE LUXO*/
+.carros-luxo-bg{
+    background-color: #000;
+    padding: 40px 20px;
+}
 
 #carros-luxo{
-    background-color: #000;
-    padding: 80px 100px;
+    max-width: 1120px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #carros-luxo img{
-    width: 600px;
+   width: 600px;   
 }
 
 .texto{
@@ -53,10 +58,30 @@ a{
     font-size: 1.5em;
 }
 
+@media(max-width: 420px){
+    .texto h2{
+        color: white;
+        font-size: 2em;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .texto p{
+        color: white;
+        font-size: 1.125em;
+        text-align: center;
+    }
+}
+
 /*CONTATO*/
-#contato{
+.contato-bg{
     background-color: #FF5C5C;
-    padding: 80px 100px;
+    padding: 80px 20px;
+}
+
+#contato{
+    max-width: 1120px;
+    margin: 0 auto;
 }
 
 #contato h2{
@@ -115,10 +140,18 @@ button:hover{
     background-color: #FF5C5C;
 }
 
+@media(max-width: 420px){
+    #contato h2{
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+}
 
 /*RODAPE*/
 footer{
-    padding: 80px 140px 10px 140px ;
+    max-width: 1120px;
+    margin: 20px auto 10px auto;
+    padding: 10px;
 }
 
 footer p{
@@ -128,6 +161,7 @@ footer p{
 
 .info-redes{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -153,6 +187,9 @@ footer p{
     font-size: 1.125em;
 }
 
+.redes-sociais{
+    margin: 20px 40px;
+}
 
 .redes-sociais h2{
     margin-bottom: 10px;
@@ -161,6 +198,20 @@ footer p{
 .redes-sociais a{
     margin-right: 20px;
     color: #FF5C5C;
+}
+
+@media(max-width: 420px){
+    .redes-sociais{
+        margin: 20px auto 30px auto;
+    }
+
+    .redes-sociais h2{
+        text-align: center;
+    }
+
+    .redes-sociais a{
+        margin: 0 10px;
+    }
 }
 
 
@@ -175,25 +226,22 @@ footer p{
     
 }
 
-
 .header img{
     width: 5%
-
 }
+
 .header a{
     color: black;
 }
-
 
 .menu li a{
     margin-left: 30px;
     font-family: Helvetica,sans-serif,monospace;
     font-size: 1em;
-    text-shadow: 2px 2px 4px #9b9797;
-    
 }
+
 .menu {  
-display: flex;
+    display: flex;
 }
 
 .banner {

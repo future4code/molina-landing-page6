@@ -189,7 +189,7 @@ footer p{
     margin-left: 30px;
     font-family: Helvetica,sans-serif,monospace;
     font-size: 1em;
-    text-shadow: 2px 2px 4px #9b9797;
+    
     
 }
 .menu {  
@@ -199,7 +199,7 @@ display: flex;
 .banner {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 7px;
+    margin-top: 5.5px;
     color: white;
     padding-top: 100px;
 }
@@ -208,19 +208,45 @@ display: flex;
     width: 400px;
     margin: 0 auto;
     font-size: 1.5em;
+    
 }
 
 .banner h1{
     margin-top: 100px;
-    font-size: 3em; 
+    font-size: 3em;
+    
+
 }
+
 .banner { 
     background-image: url(/img/pexels-jeshootscom-13861.jpg);
     background-size: cover;
     height:500px;
 }
 
+.carros-populares{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 80px 100px;
+}
 
+.carros-populares img{
+    width: 600px;
+}
+
+.carros-populares h2{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.carros-populares p{
+    font-size: 1.5em;
+}
+
+.texto2{
+    width: 460px;
+}
 
 
     

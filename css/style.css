@@ -37,7 +37,6 @@ a{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    border: 1px solid red;
 }
 
 #carros-luxo img{
@@ -264,7 +263,7 @@ footer p{
 .banner p{
     width: 400px;
     margin: 0 auto;
-    font-size: 1.5em; 
+    font-size: 1.5em;
 }
 
 .banner h1{

@@ -62,14 +62,12 @@ a{
 
 @media(max-width: 420px){
     .texto h2{
-        color: white;
         font-size: 2em;
         margin-bottom: 20px;
         text-align: center;
     }
     
     .texto p{
-        color: white;
         font-size: 1.125em;
         text-align: center;
     }
@@ -224,7 +222,6 @@ footer p{
     padding: 10px 40px;
     background-color: rgb(255, 255, 255);
     align-items: center;
-    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.4) ;
 }
 
 
@@ -252,6 +249,7 @@ footer p{
     display: flex;
 }
 
+/*BANNER*/
 .banner {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -260,14 +258,14 @@ footer p{
 }
 
 .banner p{
-    width: 370px;
+    width: 480px;
     margin: 0 auto;
     font-size: 1.5em; 
 }
 
 .banner h1{
-    margin: 110px 0 30px 0;
-    font-size: 2.9em;
+    margin: 110px 0 20px 0;
+    font-size: 3em;
 }
 
 .banner { 
@@ -276,8 +274,28 @@ footer p{
     height:570px;
 }
 
+@media(max-width: 420px){
+    .banner{
+        height: 400px;
+    }
+
+    .banner h1{
+        font-size: 2em;
+        margin: 50px 0 20px 0;
+        text-align: center;
+    }
+        
+    .banner p{
+        width: 350px;
+        font-size: 1.125em;
+        text-align: center;
+    }
+}
+
+
+/*CARROS POPULARES*/
 .carros-populares-bg{
-    padding: 48px 19px;
+    padding: 40px 20px;
 }
 
 #carros-populares{
@@ -305,6 +323,21 @@ footer p{
 .texto2{
     width: 460px;
 }
+
+@media(max-width: 420px){
+    #carros-populares h2{
+        font-size: 2em;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    #carros-populares p{
+        font-size: 1.125em;
+        text-align: center;
+    }
+}
+
+
 
 
     

@@ -14,6 +14,7 @@ body{
 img{
     display: block;
     max-width: 100%;
+    
 }
 
 li{
@@ -37,7 +38,7 @@ a{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    border: 1px solid red;
+  
 }
 
 #carros-luxo img{
@@ -226,9 +227,6 @@ footer p{
     box-shadow:0px 4px 4px rgba(0, 0, 0, 0.4) ;
 }
 
-.header div{
-
-}
 
 .header img{
     width: 80px;
@@ -262,24 +260,24 @@ footer p{
 }
 
 .banner p{
-    width: 400px;
+    width: 370px;
     margin: 0 auto;
     font-size: 1.5em; 
 }
 
 .banner h1{
-    margin: 100px 0 20px 0;
-    font-size: 3.5em;
+    margin: 110px 0 30px 0;
+    font-size: 2.9em;
 }
 
 .banner { 
     background-image: url(/img/pexels-jeshootscom-13861.jpg);
-    background-size: cover;
-    height:560px;
+    background-size: cover ;
+    height:570px;
 }
 
 .carros-populares-bg{
-    padding: 40px 20px;
+    padding: 48px 19px;
 }
 
 #carros-populares{

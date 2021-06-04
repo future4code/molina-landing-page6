@@ -1,0 +1,346 @@
+
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ESTILOS GERAIS*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+img{
+    display: block;
+    max-width: 100%;
+    
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*CARROS DE LUXO*/
+.carros-luxo-bg{
+    background-color: #000;
+    padding: 40px 20px;
+}
+
+#carros-luxo{
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#carros-luxo img{
+   width: 560px;   
+}
+
+.texto{
+    width: 460px;
+}
+
+.texto h2{
+    color: white;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.texto p{
+    color: white;
+    font-size: 1.5em;
+}
+
+@media(max-width: 420px){
+    .texto h2{
+        font-size: 2em;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .texto p{
+        font-size: 1.125em;
+        text-align: center;
+    }
+}
+
+/*CONTATO*/
+.contato-bg{
+    background-color: #FF5C5C;
+    padding: 80px 20px;
+}
+
+#contato{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+#contato h2{
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.alugar{
+    border: 1px solid black;
+}
+
+form{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#contato form input{
+    display: block;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #777;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+#contato form textarea{
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #777;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    display: block;
+    margin: 15px auto;
+    width: 100%;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: 1px solid #777;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #777;
+    background-color: white;
+    transition: .2s;
+}
+
+button:hover{
+    color: white;
+    border: 1px solid white;
+    background-color: #FF5C5C;
+}
+
+@media(max-width: 420px){
+    #contato h2{
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+}
+
+/*RODAPE*/
+footer{
+    max-width: 1120px;
+    margin: 20px auto 10px auto;
+    padding: 10px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 1em;
+}
+
+.info-redes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.info-logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 200px;
+}
+
+.info{
+    margin-left: 20px;
+}
+
+.info ul li{
+    margin-bottom: 10px;
+}
+
+.info ul li a{
+    color: black;
+    font-size: 1.125em;
+}
+
+.redes-sociais{
+    margin: 20px 40px;
+}
+
+.redes-sociais h2{
+    margin-bottom: 10px;
+}
+
+.redes-sociais a{
+    margin-right: 20px;
+    color: #FF5C5C;
+}
+
+@media(max-width: 420px){
+    .redes-sociais{
+        margin: 20px auto 30px auto;
+    }
+
+    .redes-sociais h2{
+        text-align: center;
+    }
+
+    .redes-sociais a{
+        margin: 0 10px;
+    }
+}
+
+
+/*HEADER*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+
+.header img{
+    width: 80px;
+}
+
+.header a{
+    color: black;
+    font-weight: bold;
+    transition: .2s;
+}
+
+.header a:hover{
+    color: #FF5C5C;
+}
+
+.menu li a{
+    margin-left: 30px;
+    font-family: Helvetica,sans-serif,monospace;
+    font-size: 1em;
+}
+
+.menu {  
+    display: flex;
+}
+
+/*BANNER*/
+.banner {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 100px;
+}
+
+.banner p{
+    width: 480px;
+    margin: 0 auto;
+    font-size: 1.5em;
+}
+
+.banner h1{
+    margin: 110px 0 20px 0;
+    font-size: 3em;
+}
+
+.banner { 
+    background-image: url(/img/pexels-jeshootscom-13861.jpg);
+    background-size: cover ;
+    height:570px;
+}
+
+@media(max-width: 420px){
+    .banner{
+        height: 400px;
+    }
+
+    .banner h1{
+        font-size: 2em;
+        margin: 50px 0 20px 0;
+        text-align: center;
+    }
+        
+    .banner p{
+        width: 350px;
+        font-size: 1.125em;
+        text-align: center;
+    }
+}
+
+
+/*CARROS POPULARES*/
+.carros-populares-bg{
+    padding: 40px 20px;
+}
+
+#carros-populares{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+#carros-populares img{
+    width: 600px;
+}
+
+#carros-populares h2{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#carros-populares p{
+    font-size: 1.5em;
+}
+
+.texto2{
+    width: 460px;
+}
+
+@media(max-width: 420px){
+    #carros-populares h2{
+        font-size: 2em;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    #carros-populares p{
+        font-size: 1.125em;
+        text-align: center;
+    }
+}
+
+
+
+
+    
+
+
+
+
